@@ -1,0 +1,22 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1566637/public_html/
+    - /bin/cp beranda.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp informasi.html $DEPLOYPATH
+    - /bin/cp kontak-kami.html $DEPLOYPATH
+    - /bin/cp makna-logo.html $DEPLOYPATH
+    - /bin/cp profil-anggota.html $DEPLOYPATH
+    - /bin/cp profil-anggota-halaman-1.html $DEPLOYPATH
+    - /bin/cp profil-anggota-halaman-2.html $DEPLOYPATH
+    - /bin/cp profil-anggota-halaman-3.html $DEPLOYPATH
+    - /bin/cp sambutan-ketua.html $DEPLOYPATH
+    - /bin/cp struktur-organisasi.html $DEPLOYPATH
+    - /bin/cp surat-dispensasi.html $DEPLOYPATH
+    - /bin/cp tentang-kami.html $DEPLOYPATH
+    - /bin/cp visi-misi-tujuan.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
