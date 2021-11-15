@@ -289,6 +289,12 @@ i.fas.fa-angle-down {
   border-radius: 0 0 200px 0;
 }
 
+@media (max-width: 992px) {
+  .home {
+    padding-bottom: 10px;
+  }
+}
+
 /* Galeri Foto */
 .galeri-foto {
   width: 100%;
@@ -350,6 +356,7 @@ i.fas.fa-angle-down {
   font-size: 2rem;
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .blog-spot-text {
@@ -358,22 +365,60 @@ i.fas.fa-angle-down {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.blog-spot-cta {
-  padding: 0.5rem 1.5rem;
+/* Button */
+.btn-1 {
+  background-color: var(--main-color);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  box-shadow: var(--shadow-black-300);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.btn-1:focus {
+  box-shadow: var(--shadow-black-300);
+}
+
+.btn-1:hover {
+  color: var(--main-color);
+  background-color: #ffffff;
   text-decoration: none;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #c70039;
-  border-radius: 0.8rem;
-  float: left;
 }
 
-.blog-spot-cta:hover {
-  background-color: #900c3f;
-  color: #f1f1f1;
+.btn-2 {
+  background-color: var(--main-color);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  box-shadow: var(--shadow-black-300);
+  font-weight: 500;
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 992px) {
+.btn-2:focus {
+  box-shadow: var(--shadow-black-300);
+}
+
+.btn-2:hover {
+  color: var(--main-color);
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .galeri-foto {
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
   .blog-spot {
     margin-top: 2rem;
     padding: 1rem;
@@ -395,6 +440,10 @@ i.fas.fa-angle-down {
     max-width: 100%;
     transform: translate(0, -3rem);
   }
+  .btn-1 {
+    margin-bottom: 10px;
+    float: left;
+  }
 }
 
 .slide-box {
@@ -414,20 +463,6 @@ i.fas.fa-angle-down {
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
-}
-
-.next-btn {
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #c70039;
-  border-radius: 0.8rem;
-}
-
-.next-btn:hover {
-  color: #fff;
-  background-color: #900c3f;
 }
 
 /* Slider */
@@ -488,6 +523,9 @@ i.fas.fa-angle-down {
   }
   .galeri-video-mini .col-md-12 {
     padding: 2px 0 2px 0;
+  }
+  .galeri-video.section-padding {
+    padding-bottom: 10px;
   }
 }
 
