@@ -16,7 +16,8 @@ deployment:
     - /bin/cp surat-dispensasi.html $DEPLOYPATH
     - /bin/cp tentang-kami.html $DEPLOYPATH
     - /bin/cp visi-misi-tujuan.html $DEPLOYPATH
+    - /bin/cp pencapaian-prestasi.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -r css $DEPLOYPATH
+    - /bin/cp -r img $DEPLOYPATH
+    - /bin/cp -r js $DEPLOYPATH
