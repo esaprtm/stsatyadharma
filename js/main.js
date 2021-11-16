@@ -7,7 +7,7 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 7000,
     autoplayHoverPause: true,
     responsiveClass: true,
     responsive: {
