@@ -249,13 +249,38 @@ i.fas.fa-angle-down {
   font-size: 22px;
   color: #ffffff;
   font-weight: 500;
-  margin: 0 0 40px;
+  margin: 0 0 0.5rem;
 }
 
 .kontak-info-item {
   position: relative;
   padding-left: 55px;
   margin-bottom: 30px;
+}
+
+.kontak-info-sosmed {
+  position: relative;
+  margin-bottom: 30px;
+}
+.kontak-info-sosmed ul {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.kontak-info-sosmed i {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 38px;
+  margin-right: 25px;
+  margin-bottom: 10px;
 }
 
 .kontak-info-item i {
@@ -301,6 +326,13 @@ i.fas.fa-angle-down {
   }
   .kontak-info h3 {
     text-align: center;
+  }
+  .kontak-info-sosmed {
+    text-align: center;
+  }
+  .kontak-info-sosmed i {
+    margin-top: 10px;
+    margin-right: 15px;
   }
 }
 
